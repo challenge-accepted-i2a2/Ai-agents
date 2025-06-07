@@ -9,6 +9,10 @@
   </p>
 </div>
 
+<p align="center">
+  <img src="./imgs/banner.png" >
+</p>
+
 ## Estrutura dos arquivos
 
 <p align="justify">
