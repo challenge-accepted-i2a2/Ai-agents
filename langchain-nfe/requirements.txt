@@ -4,3 +4,6 @@ pandas
 python-dotenv
 langchain
 langchain-google-genai
+streamlit
+langchain_experimental
+tabulate
