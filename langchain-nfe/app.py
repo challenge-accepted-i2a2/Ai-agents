@@ -58,7 +58,7 @@ PROMPT_PREFIX = """
 You are an invoice analyzer.
 The provided dataframes represents different invoice detail level, being identified unically by the 'CHAVE DE ACESSO' column. The first dataframe have consolidated invoice information, that is, each line represents a unique invoice. The second dataframe details each invoice item.
 First set the pandas display options to show all columns.
-Get the column names, then answer the question.
+Get the column names, then answer the question in brasilian portuguese.
 """
 
 PROMPT_SUFFIX = """
@@ -66,6 +66,7 @@ PROMPT_SUFFIX = """
 - Do not make up an answer or use you prior knowldge, only use the results of the calculations you have done.
 - The final answer should be user oriented and friendly, so, you don't have to explain you thought chain.
 - Do not use special caracters in the final answer
+- Always answear the questions in brasilian Portuguese.
 """
 
 # Inicializar a aplicação FastAPI
