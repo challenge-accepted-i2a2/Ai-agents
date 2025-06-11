@@ -67,6 +67,8 @@ PROMPT_SUFFIX = """
 - The final answer should be user oriented and friendly, so, you don't have to explain you thought chain.
 - Do not use special caracters in the final answer
 - Always answear the questions in brasilian Portuguese.
+- If you need to execute code, use only the Action: section. Do not include a Final Answer: until all actions have been completed.
+- Always ensure your entire response is valid Markdown.
 """
 
 # Inicializar a aplicação FastAPI
