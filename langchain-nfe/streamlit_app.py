@@ -4,7 +4,7 @@ import requests
 # Ative ou desative o modo de depuração
 modo_debug = True  # Altere para False em produção
 
-st.title("Desafio 2")
+st.title("Análise de CSV")
 
 # Inicializa o histórico de mensagens
 if "messages" not in st.session_state:
@@ -18,6 +18,7 @@ for message in st.session_state.messages:
 # Função para chamar a API e processar a resposta
 def get_api_response(question):
     try:
+
         response = requests.post(
             "http://localhost:8000/ask",
             headers={"Content-Type": "application/json"},

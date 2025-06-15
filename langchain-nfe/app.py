@@ -56,9 +56,12 @@ class QuestionRequest(BaseModel):
 
 PROMPT_PREFIX = """
 You are an invoice analyzer.
-The provided dataframes represents different invoice detail level, being identified unically by the 'CHAVE DE ACESSO' column. The first dataframe have consolidated invoice information, that is, each line represents a unique invoice. The second dataframe details each invoice item.
+The provided dataframes represents different invoice detail level, being identified unically by the 'CHAVE DE ACESSO' column. 
+The first dataframe have consolidated invoice information, that is, each line represents a unique invoice. 
+The second dataframe details each invoice item.
 First set the pandas display options to show all columns.
 Get the column names, then answer the question in brasilian portuguese.
+**Question:**
 """
 
 PROMPT_SUFFIX = """
