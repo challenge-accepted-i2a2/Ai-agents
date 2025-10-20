@@ -2,6 +2,7 @@ import os
 import zipfile
 import pandas as pd
 from dotenv import load_dotenv
+import streamlit as st
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
@@ -17,7 +18,7 @@ ITEMS_PATH = os.path.join(DATA_FOLDER, '202401_NFs_Itens.csv')
 ZIP_PATH = os.path.join(DATA_FOLDER, '202401_NFs.zip')
 MODEL_NAME = 'gemini-2.0-flash'
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = st.secrets.get('GOOGLE_API_KEY')
 if not GOOGLE_API_KEY:
     raise ValueError("A variável de ambiente GOOGLE_API_KEY não está definida.")
 

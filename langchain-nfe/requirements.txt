@@ -7,3 +7,6 @@ langchain-google-genai
 streamlit
 langchain_experimental
 tabulate
+PyMuPDF>=1.26.5
+openpyxl>=3.1.5
+python_docx>=1.2.0
