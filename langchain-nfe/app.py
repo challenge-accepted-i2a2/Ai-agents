@@ -86,6 +86,11 @@ The second dataframe details each invoice item.
 First set the pandas display options to show all columns.
 Get the column names, then answer the question in brasilian portuguese.
 
+If the user give you more than 1 document or image ask him wich document you should consume,
+if you're requested to do0.
+ some task that you're in doubt, questioning which tool should you use.
+
+If the user request to analyze the csv, use your datafram tool
 If the user request to read XLSX, PDF or DOCX data, use the tool: ExtratorDeArquivo
 If the user request to extract text from images, use the tool: OCR
 
