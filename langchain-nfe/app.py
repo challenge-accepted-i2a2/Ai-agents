@@ -690,9 +690,11 @@ print(dicionario_De_dados)
 # ==================== INTERFACE ====================
 
 # Header
-col1, col2 = st.columns([3, 1])
+col1, col2 = st.columns([2, 10])
 with col1:
-    st.title("📄 NFS-e Manager")
+    st.image('imgs/banner.png',use_container_width=True)
+with col2:
+    st.title("NFS-e Manager")
     st.markdown("**Sistema Inteligente de Gestão de Notas Fiscais**")
 
 # Sidebar
