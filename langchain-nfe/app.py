@@ -755,7 +755,7 @@ upload_dir.mkdir(parents=True, exist_ok=True)
 tipos_permitidos = ["pdf", "docx", "xlsx", "png", "jpg", "jpeg"]
 
 arquivos = st.file_uploader(
-    "Arraste arquivos ou clique para selecionar",
+    "Arraste um arquivo ou clique para selecionar. Só é possível o upload de um arquivo por vez.",
     type=tipos_permitidos,
     accept_multiple_files=True,
     help="Formatos aceitos: PDF, DOCX, XLSX, PNG, JPG"
