@@ -362,10 +362,10 @@ load_dotenv()
 
 # ==================== CONFIGURAÇÃO ====================
 
-DATA_FOLDER = Path("data")
-CABECALHO_PATH = DATA_FOLDER / "202401_NFs_Cabecalho.csv"
-ITEMS_PATH = DATA_FOLDER / "202401_NFs_Itens.csv"
-ZIP_PATH = DATA_FOLDER / "202401_NFs.zip"
+DATA_FOLDER = "./data"
+CABECALHO_PATH = DATA_FOLDER + "202401_NFs_Cabecalho.csv"
+ITEMS_PATH = DATA_FOLDER + "202401_NFs_Itens.csv"
+ZIP_PATH = DATA_FOLDER + "202401_NFs.zip"
 MODEL_NAME = 'gemini-2.0-flash'
 
 # ==================== ESTILO APPLE ====================
