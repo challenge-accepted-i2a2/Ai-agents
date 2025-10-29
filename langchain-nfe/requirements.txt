@@ -2,10 +2,10 @@ fastapi
 uvicorn
 pandas
 python-dotenv
-langchain
+langchain==0.3.27
 langchain-google-genai
 streamlit
-langchain_experimental
+langchain-experimental==0.3.4
 tabulate
 PyMuPDF>=1.26.5
 openpyxl>=3.1.5
