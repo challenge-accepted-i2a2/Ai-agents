@@ -362,7 +362,7 @@ load_dotenv()
 
 # ==================== CONFIGURAÇÃO ====================
 
-DATA_FOLDER = "./data"
+DATA_FOLDER = "./data/"
 CABECALHO_PATH = DATA_FOLDER + "202401_NFs_Cabecalho.csv"
 ITEMS_PATH = DATA_FOLDER + "202401_NFs_Itens.csv"
 ZIP_PATH = DATA_FOLDER + "202401_NFs.zip"
