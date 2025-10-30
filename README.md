@@ -117,7 +117,7 @@ project/
 
 ## 📋 Pré-Requisitos
 
-### Servicos goole que precisam ser habilitados
+### Servicos google que precisam ser habilitados
 - Gemini for Google Cloud API 
 - Generative Language API 
 - Cloud Vision API
@@ -187,7 +187,7 @@ Acesse: `http://localhost:8501`
 
 **Comandos disponíveis:**
 - "Extraia os dados desta nota fiscal"
-- "Salve esta nota no banco"
+- "Salve esta nota no banco de dados"
 - "Quantas notas fiscais temos?"
 - "Liste as últimas 5 notas"
 - "Qual o total de impostos?"
@@ -558,4 +558,3 @@ Para dúvidas ou problemas:
 
 </div>
 
-*** Este projeto encontra-se sobre a licença MIT ***
