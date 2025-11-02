@@ -38,7 +38,8 @@ Sistema completo de análise de documentos fiscais com **Inteligência Artificia
 - 🧠 **Analisa** usando LLM (Google Gemini) via LangChain
 - 💾 **Armazena** em banco de dados SQLite com estrutura normalizada
 - 🔍 **Consulta** dados com linguagem natural
-- 📊 **Gera** relatórios e estatísticas automaticamente
+- 📊 **Gera** relatórios e estatísticas automaticamente  
+- **Disponível no link:** https://llm-nfe-app-challenge-accepted.streamlit.app/
 
 ### ✨ Diferenciais
 
