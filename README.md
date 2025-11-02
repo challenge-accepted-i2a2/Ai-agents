@@ -549,12 +549,12 @@ Para dúvidas ou problemas:
 **Versão:** 2.0  
 **Data:** Outubro 2024  
 **Status:** ✅ Pronto para produção
-
 ---
 
 <div align="center">
 
 **Feito com ❤️ usando Python, LangChain e Google Gemini**
+**O projeto encontra-se sob a licença MIT**
 
 </div>
 
